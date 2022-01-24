@@ -17,5 +17,3 @@ jobs:
 
       - name: C4Builder
         uses: clippings/c4builder-action@v1
-        with:
-          path: 'unity-architecture'
