@@ -1,0 +1,22 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+System_Ext(sps, "Science Processing", "desc")
+System_Ext(ds, "Data Services", "Xamarin", "desc")
+System_Ext(as, "Analysis Services", "Relational Database Schema", "desc")
+System_Ext(cs, "Common Services", "java and String MVC", "desc")
+
+System_Boundary(ADS, "Algorithm Development") {
+    Container(ac, "Algorithm Catalog", "MVC Rest Controlle", "Allows users to sign in to the internet banking system")
+    Component(ec, "Eclipse Che", "MVC Rest Controlle", "Provides customers with a summory of their bank accounts")
+    Component(jn, "Jupyter Notebooks", "Spring Bean", "Provides functionality related to singing in, changing passwords, etc.")
+    Component(cicd, "build system", "Spring Bean", "Provides functionality related to singing in, changing passwords, etc.")
+
+    Rel(cicd, ac, "publishes to")
+}
+
+Rel(sps, ac, "Uses", "JSON/HTTPS")
+
+@enduml
