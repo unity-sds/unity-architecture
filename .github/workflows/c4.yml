@@ -6,7 +6,7 @@ on:
     types: [open, synchronize]
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
