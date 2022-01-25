@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="903px" preserveAspectRatio="none" style="width:570px;height:903px;background:#FFFFFF;" version="1.1" viewBox="0 0 570 903" width="570px" zoomAndPan="magnify"><defs/><g><!--MD5=[fc44c7ec5feec1798204b94a273fe0ec]
+cluster sps--><rect fill="#FFFFFF" height="412" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="485" x="49.5" y="172"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="172" x="206" y="188.8516">Science Processing</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="261" y="203.7637">[System]</text><!--MD5=[6526aea6544ce4a9b20e76fa099a9860]
+entity wc--><rect fill="#438DD5" height="117.7813" style="stroke:#3C7FC0;stroke-width:1.5;" width="207" x="311" y="232"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="157" x="336" y="256.8516">Workflow Catalog</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="81" x="374" y="271.7637">[JSON/HTTPS]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="416.5" y="287.5889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="325" y="303.8857">Workflow catalog for build,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="323" y="320.1826">registering, and deploying</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="380.5" y="336.4795">workflows</text><!--MD5=[0229850c6a1320d8c3e20469470bcd77]
+entity ems--><rect fill="#85BBF0" height="136.4063" style="stroke:#78A8D8;stroke-width:1.5;" width="210" x="65.5" y="223"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="86" x="124.5" y="247.8516">Execution</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="186" x="77.5" y="266.4766">Management Service</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="132" y="281.3887">[OGC WPS-T]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="172.5" y="297.2139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="79.5" y="313.5107">Allows request of workflow</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="83.5" y="329.8076">deployment and product</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="132" y="346.1045">processing</text><!--MD5=[2ea355022c2b6b2aa2e960da295d519b]
+entity ades--><rect fill="#85BBF0" height="120.1094" style="stroke:#78A8D8;stroke-width:1.5;" width="217" x="66" y="448"/><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="197" x="76" y="472.8516">Algorithm Deployment</text><text fill="#000000" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="196" x="76.5" y="491.4766">and Execution System</text><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="150.5" y="506.3887">[WPS-T]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="176.5" y="522.2139"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="177" x="86" y="538.5107">Execute the algorithms to</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="129" x="110" y="554.8076">generate products</text><!--MD5=[d4c4ca0c6539aad8b80246bd3465f857]
+entity ads--><rect fill="#999999" height="89.8438" style="stroke:#8A8A8A;stroke-width:1.5;" width="137" x="7" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="85" x="30" y="31.8516">Algorithm</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="117" x="17" y="50.4766">Development</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="77.5" y="67.2451"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="60.5" y="83.542">desc</text><!--MD5=[727c1040af9be188ab17d19c49f9ac10]
+entity ds--><rect fill="#999999" height="54.9219" style="stroke:#8A8A8A;stroke-width:1.5;" width="142" x="103.5" y="659"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="176.5" y="681.9951"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="113.5" y="700.1484">Data Services</text><!--MD5=[a9d198bd5c1c9d64f3f6943bebfbf470]
+entity as--><rect fill="#999999" height="54.9219" style="stroke:#8A8A8A;stroke-width:1.5;" width="172" x="179.5" y="24.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="267.5" y="47.4951"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="152" x="189.5" y="65.6484">Analysis Services</text><!--MD5=[d5096230de5c7e9b5a3d1997ba7f37f3]
+entity cs--><rect fill="#999999" height="54.9219" style="stroke:#8A8A8A;stroke-width:1.5;" width="178" x="386.5" y="24.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="477.5" y="47.4951"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="158" x="396.5" y="65.6484">Common Services</text><!--MD5=[d5f2ad02dfa438d61930ad980ee3cc79]
+link ems to ades--><path d="M171.75,359.14 C172.23,384.83 172.77,414.1 173.25,439.79 " fill="none" id="ems-to-ades" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="173.4,448,176.2423,439.9426,170.2435,440.0605,173.4,448" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="144" x="174.5" y="401.1387">executes algorithms</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="18" x="239.5" y="415.1074">on</text><!--MD5=[8baf52622a51f3e0e5b706a723ad9296]
+link ads to ems--><path d="M74.16,97.06 C74.8,115.67 77.17,137.31 83.5,156 C90.52,176.71 101.46,197.36 113.25,216.04 " fill="none" id="ads-to-ems" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="117.62,222.83,115.8148,214.4789,110.7688,217.725,117.62,222.83" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="137" x="84.5" y="139.1387">requests execution</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="114.5" y="153.1074">[OGC WPS-T]</text><!--MD5=[e7f8aad85e9265fbf08b717f90745288]
+link as to ems--><path d="M255.65,79.77 C247.91,100.62 236.76,130.24 226.5,156 C218.84,175.23 210.34,195.91 202.31,215.13 " fill="none" id="as-to-ems" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="199.15,222.7,205.0021,216.4749,199.4659,214.1618,199.15,222.7" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="137" x="239.5" y="139.1387">requests execution</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="77" x="269.5" y="153.1074">[OGC WPS-T]</text><!--MD5=[ebfce222e90fa8ff6a1a09d70f0a6a3d]
+link ades to ds--><path d="M174.5,568.26 C174.5,595.56 174.5,627.01 174.5,650.46 " fill="none" id="ades-to-ds" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="174.5,658.72,177.5,650.72,171.5,650.72,174.5,658.72" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="84" x="175.5" y="612.1387">Writes data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="48" x="193.5" y="626.1074">[HTTPS]</text><rect fill="#FFFFFF" height="160.6719" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="159" x="389.5" y="726.9219"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="395.5" y="746.917">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="458.5" y="746.917"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="395.5" y="750.2188"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="399.5" y="763.2139">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="395.5" y="766.5156"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="399.5" y="779.5107">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="395.5" y="782.8125"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="399.5" y="795.8076">container</text><rect fill="#85BBF0" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="395.5" y="799.1094"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="399.5" y="812.1045">component</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="395.5" y="815.4063"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="399.5" y="828.4014">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="395.5" y="831.7031"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="399.5" y="844.6982">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="395.5" y="848"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="399.5" y="860.9951">external container</text><rect fill="#CCCCCC" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="395.5" y="864.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="399.5" y="877.292">external component</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="395.5" x2="542.5" y1="733.9219" y2="733.9219"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="395.5" x2="542.5" y1="750.2188" y2="750.2188"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="395.5" x2="542.5" y1="766.5156" y2="766.5156"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="395.5" x2="542.5" y1="782.8125" y2="782.8125"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="395.5" x2="542.5" y1="799.1094" y2="799.1094"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="395.5" x2="542.5" y1="815.4063" y2="815.4063"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="395.5" x2="542.5" y1="831.7031" y2="831.7031"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="395.5" x2="542.5" y1="848" y2="848"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="395.5" x2="542.5" y1="864.2969" y2="864.2969"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="395.5" x2="542.5" y1="880.5938" y2="880.5938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="395.5" x2="395.5" y1="733.9219" y2="880.5938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="542.5" x2="542.5" y1="733.9219" y2="880.5938"/><!--MD5=[a0d3e9d7a14a490c79244768c2b82f3e]
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+System_Ext(ads, "Algorithm Development", "desc")
+System_Ext(ds, "Data Services", "", "desc")
+System_Ext(as, "Analysis Services", "", "desc")
+System_Ext(cs, "Common Services", "", "desc")
+
+System_Boundary(sps, "Science Processing") {
+    Container(wc, "Workflow Catalog", "JSON/HTTPS", "Workflow catalog for build, registering, and deploying workflows")
+    Component(ems, "Execution Management Service", "OGC WPS-T", "Allows request of workflow deployment and product processing")
+    Component(ades, "Algorithm Deployment and Execution System", "WPS-T", "Execute the algorithms to generate products")
+
+    Rel(ems, ades, "executes algorithms on")
+}
+
+Rel(ads, ems, "requests execution", "OGC WPS-T")
+Rel(as, ems, "requests execution", "OGC WPS-T")
+
+Rel(ades, ds, "Writes data", "HTTPS")
+
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+
+rectangle "==Algorithm Development\n\n desc" <<external_system>> as ads
+rectangle "<$desc>\n==Data Services" <<external_system>> as ds
+rectangle "<$desc>\n==Analysis Services" <<external_system>> as as
+rectangle "<$desc>\n==Common Services" <<external_system>> as cs
+
+rectangle "==Science Processing\n<size:12>[System]</size>" <<boundary>> as sps {
+    rectangle "==Workflow Catalog\n//<size:12>[JSON/HTTPS]</size>//\n\n Workflow catalog for build, registering, and deploying workflows" <<container>> as wc
+    rectangle "==Execution Management Service\n//<size:12>[OGC WPS-T]</size>//\n\n Allows request of workflow deployment and product processing" <<component>> as ems
+    rectangle "==Algorithm Deployment and Execution System\n//<size:12>[WPS-T]</size>//\n\n Execute the algorithms to generate products" <<component>> as ades
+
+ems - ->> ades : **executes algorithms on**
+}
+
+ads - ->> ems : **requests execution**\n//<size:12>[OGC WPS-T]</size>//
+as - ->> ems : **requests execution**\n//<size:12>[OGC WPS-T]</size>//
+
+ades - ->> ds : **Writes data**\n//<size:12>[HTTPS]</size>//
+
+@enduml
+
+PlantUML version 1.2021.12(Tue Oct 05 16:01:58 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
