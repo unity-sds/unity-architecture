@@ -3,6 +3,7 @@
 * [**Overview**](README.md)
   * [Unity](Unity/README.md)
     * [Algorithm Development](Unity/Algorithm%20Development/README.md)
+      * [Algorithm Catalog](Unity/Algorithm%20Development/Algorithm%20Catalog/README.md)
 
 ---
 
