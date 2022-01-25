@@ -1,0 +1,23 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+System_Ext(sps, "Science Processing System", "")
+System_Boundary(ads,"Algorithm Development"){
+  Container(bs, "Build System", "Jenkins", "Builds algorithms into OGC Algorithm Packages.")
+  Container_Boundary(ac, "Algorithm Catalog") {
+      Component(api, "search api", "cmr?", "API for listing, viewing, and posting package metadata")
+      Component(store, "Algorithm Store", "s3", "where docker images are stored")
+      Component(db, "database", "elastic search", "Where metadata is stored for packages")
+
+      Rel(api, db, "reads/writes package metadata", "JSON/HTTPS")
+
+}
+
+}
+Rel(sps, api, "Gets Package Info", "JSON/HTTPS")
+
+Rel(bs, ac, "Writes OGC Package");
+
+@enduml
