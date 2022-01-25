@@ -1,0 +1,24 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+LAYOUT_WITH_LEGEND()
+
+System_Ext(ads, "Algorithm Development", "desc")
+System_Ext(ds, "Data Services", "", "desc")
+System_Ext(as, "Analysis Services", "", "desc")
+System_Ext(cs, "Common Services", "", "desc")
+
+System_Boundary(sps, "Science Processing") {
+    Container(wc, "Workflow Catalog", "JSON/HTTPS", "Workflow catalog for build, registering, and deploying workflows")
+    Component(ems, "Execution Management Service", "OGC WPS-T", "Allows request of workflow deployment and product processing")
+    Component(ades, "Algorithm Deployment and Execution System", "WPS-T", "Execute the algorithms to generate products")
+
+    Rel(ems, ades, "executes algorithms on")
+}
+
+Rel(ads, ems, "requests execution", "OGC WPS-T")
+Rel(as, ems, "requests execution", "OGC WPS-T")
+
+Rel(ades, ds, "Writes data", "HTTPS")
+
+@enduml
