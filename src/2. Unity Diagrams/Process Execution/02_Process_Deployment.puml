@@ -1,0 +1,10 @@
+@startuml
+title Science Processing Request
+
+Client --> EMS: Process (WPS)
+EMS --> ADES: Process (WPS)
+ADES --> EMS : Job ID (WPS)
+EMS --> Client : Job ID (WPS)
+
+
+@enduml

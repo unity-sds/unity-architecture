@@ -1,0 +1,36 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+'Global vars repeated for referencing other common systems
+!global $USC_DESC = "Platform wide tool and functional implementations including authentication and authorization, metrics publication, logging services, deployment and build systems"
+!global $AS_DESC = "Higher level data functions to access and transform data."
+!global $ADS_DESC = "Subsystem for developing and assembling science algorithms into an algorithm catalog"
+!global $SPS_DESC = "Subsystem for the generation of science data products through the combination of Algorithms and Data"
+!global $DS_DESC = "Subsystem for ingestion, storage, and access to data products for use in the Unity System."
+
+LAYOUT_WITH_LEGEND()
+
+'Global 'external systems' definitions
+System_Ext(sps, "Science Processing", $SPS_DESC)
+System_Ext(ds, "Data Services", $DS_DESC)
+System_Ext(as, "Analysis Services", $AS_DESC)
+System_Ext(cs, "Common Services", $USC_DESC)
+'System_Ext(ads, "Algorithm Development", $ADS_DESC)
+
+
+System_Boundary(ADS, "Algorithm Development") {
+    Container(ac, "Algorithm Catalog", "cmr", "Allows users to sign in to the internet banking system")
+    Component(ec, "Eclipse Che", "eclipse che", "Provides customers with a summary of their bank accounts")
+    Component(jn, "Jupyter Notebooks", "jupyter", "Provides functionality related to singing in, changing passwords, etc.")
+    Component(cicd, "build system", "jenkins", "Provides functionality related to singing in, changing passwords, etc.")
+    Component(git, "source control", "git", "Provides functionality related to singing in, changing passwords, etc.")
+
+    Rel(ec, git, "pushes to")
+    Rel(jn, git, "pushes to")
+    Rel(git, cicd, "Builds algorithm package")
+    Rel(cicd, ac, "publishes to")
+}
+
+Rel(sps, ac, "Uses", "JSON/HTTPS")
+
+@enduml

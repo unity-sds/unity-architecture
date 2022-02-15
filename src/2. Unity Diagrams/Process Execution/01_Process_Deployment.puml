@@ -1,0 +1,16 @@
+@startuml
+title Science Processing Deployment
+
+Client -> EMS: Algorithm Deployment Request (WPS-T)
+EMS -> ADES: Algorithm Deployment Request (WPS-T)
+
+ADES -> Algorithm_Catalog: OGC CWL
+Algorithm_Catalog -> ADES: Application Package
+
+ADES -> ADES: Deploy Application
+
+
+ADES -> EMS: Algorithm Registration Response (WPS-T)
+EMS -> Client: Algorithm Registration Response (WPS-T)
+
+@enduml

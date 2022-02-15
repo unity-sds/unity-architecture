@@ -1,0 +1,12 @@
+@startuml
+title Science Processing Execution Status
+
+Client -> EMS: Job/Status (WPS)
+EMS -> ADES: Job/Status (WPS)
+ADES -> EMS : Job/Status (WPS)
+EMS -> Client : Job/Status (WPS)
+
+
+
+
+@enduml
