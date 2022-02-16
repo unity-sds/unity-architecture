@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1037px" preserveAspectRatio="none" style="width:1484px;height:1037px;background:#FFFFFF;" version="1.1" viewBox="0 0 1484 1037" width="1484px" zoomAndPan="magnify"><defs/><g><!--MD5=[b0238ae741e855b18719541a6e96de08]
+cluster u--><rect fill="#FFFFFF" height="464.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="984" x="241" y="411"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="45" x="710.5" y="427.8516">Unity</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="702" y="442.7637">[System]</text><!--MD5=[d4c4ca0c6539aad8b80246bd3465f857]
+entity ads--><rect fill="#438DD5" height="99.1563" style="stroke:#3C7FC0;stroke-width:1.5;" width="217" x="991.5" y="473.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="85" x="1054.5" y="498.3516">Algorithm</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="117" x="1041.5" y="516.9766">Development</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="193" x="1001.5" y="531.8887">[Subsystem for developing and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="189" x="1003.5" y="545.8574">assembling science algorithms</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="163" x="1018.5" y="559.8262">into an algorithm catalog]</text><!--MD5=[3fffc34736d2f7e76958dc3c596e3531]
+entity sps--><rect fill="#438DD5" height="94.5" style="stroke:#3C7FC0;stroke-width:1.5;" width="215" x="982.5" y="764.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="172" x="1004" y="789.3516">Science Processing</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="191" x="992.5" y="804.2637">[Subsystem for the generation</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="155" x="1010.5" y="818.2324">of science data products</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="172" x="1002" y="832.2012">through the combination of</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="132" x="1024" y="846.1699">Algorithms and Data]</text><!--MD5=[727c1040af9be188ab17d19c49f9ac10]
+entity ds--><rect fill="#438DD5" height="94.5" style="stroke:#3C7FC0;stroke-width:1.5;" width="202" x="754" y="475.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="794" y="500.3516">Data Services</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="158" x="774" y="515.2637">[Subsystem for ingestion,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="176" x="765" y="529.2324">storage, and access to data</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="178" x="764" y="543.2012">products for use in the Unity</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="54" x="828" y="557.1699">System.]</text><!--MD5=[a9d198bd5c1c9d64f3f6943bebfbf470]
+entity as--><rect fill="#438DD5" height="66.5625" style="stroke:#3C7FC0;stroke-width:1.5;" width="213" x="505.5" y="489.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="152" x="536" y="514.3516">Analysis Services</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="189" x="515.5" y="529.2637">[Higher level data functions to</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="176" x="524" y="543.2324">access and transform data.]</text><!--MD5=[d5096230de5c7e9b5a3d1997ba7f37f3]
+entity cs--><rect fill="#438DD5" height="122.4375" style="stroke:#3C7FC0;stroke-width:1.5;" width="214" x="257" y="462"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="158" x="285" y="486.8516">Common Services</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="145" x="289.5" y="501.7637">[Platform wide tool and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="169" x="277.5" y="515.7324">functional implementations</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="180" x="272" y="529.7012">including authentication and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="136" x="294" y="543.6699">authorization, metrics</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="180" x="272" y="557.6387">publication, logging services,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="194" x="267" y="571.6074">deployment and build systems]</text><!--MD5=[a2a1127a9e0c3d5a4af797120761d109]
+entity ad--><rect fill="#08427B" height="151.8125" style="stroke:#073B6F;stroke-width:1.5;" width="209" x="997.5" y="39.5"/><image height="48" width="48" x="1078" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="49.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="181" x="1011.5" y="112.3516">Algorithm Developer</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1104" y="129.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="1011.5" y="145.417">Teams responsible for the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="166" x="1017" y="161.7139">development of science</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="1066" y="178.0107">algorithms</text><!--MD5=[c85c3f7a8a2bade579e4fd3bd13e094e]
+entity op--><rect fill="#08427B" height="151.8125" style="stroke:#073B6F;stroke-width:1.5;" width="210" x="1244" y="447"/><image height="48" width="48" x="1325" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="457"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="81" x="1308.5" y="519.8516">Operator</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1351" y="536.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="1258.5" y="552.917">Teams responsible for the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="1254" y="569.2139">operational production and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="161" x="1268.5" y="585.5107">monitoring of products.</text><!--MD5=[6a310a3e99d6016a148bf5e7a91da69e]
+entity cv--><rect fill="#08427B" height="151.8125" style="stroke:#073B6F;stroke-width:1.5;" width="209" x="1241.5" y="39.5"/><image height="48" width="48" x="1322" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABuUlEQVR42u2Yv0oEMRDGp/QRfIR7BVs7Gx9AH0CwtrtKLNXSRsRSG8HCxkbQVrSykoOrzlILC9v4gwMRNptMMsnu3nHDFMcSLh/f/PsmsrY5HpTLUgHaOri8uHt+eJm8vs/wm8e38fn9aPekB0D7p7df3z+uxYC4sXfWEaD17SPIcAqDreqAQBMgpmnHV091ASm5+W8EtxYgQuCyDF7LA+JPXa5RieUBwbwzWHlAVLIFEB2rMKCk4rK0AC0gZzN9/S8soOnHpwWQvhtpATE4h5XUlrKnIKp06uxCS5poCzs6stvjzuF1XfmRVG4ZkihHMSp5SuXGJGG5LEAVPSIpb4qJfIQzQeF6OMORGXSHbCjLuAb1CYhti7whQHQ5PLrlcHh+kiAyN/RxFE0/9OYvH+dJw33gw/nB4bYa5Ltmokl4MTXqMi+sMFtSfFBEDWoD67bUkPSa+d/Gk3i7i6tvxE4LyLhgGOeu9ELPXzLFAVHJrkNrZreUFfN28S9l1x27upVSLwp5hlIYFqBm8a8ADRxQJIfszy72ZxrpeKxGR6xnltEbupkbXtkpbQsh6ozhV8kDCni1dcT8F2bsoAKLcdt7AAAAAElFTkSuQmCC" y="49.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="58" x="1317" y="112.3516">Cal/Val</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1348" y="129.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="1255.5" y="145.417">Teams responsible for the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="1258.5" y="161.7139">calibration &amp; validation of</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="1296" y="178.0107">data products.</text><!--MD5=[5aa0dd4761726d17b3a01698797bf656]
+entity ou--><rect fill="#686868" height="217" style="stroke:#8A8A8A;stroke-width:1.5;" width="198" x="510" y="7"/><image height="48" width="48" x="585" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAABkElEQVR42u2YrY+EMBDF5889vRqNRqPRaDQajT6Nxnd/YZPLJUA7dFpgN/vUhjTblzdfbyo/N4N8FKGqqvq+H8fxd8EwDG3bFkVxAaGmaeZ5djuAYlmWJxF6PB6I4RRAreyEYOMRZo2u6/ISUmrzHwQ3FyFC4KKArukJ8acuFlRiekIo7wxIT4hKthCiYyUmdKi4LC1AS8jZoK//tyU0TZOFkL4baQkxOO+V1JaypyCydOroQjs00d52dES3x7qu89qPQ+UWYYliHKNSp6PamCwsl3mkokccyptkJh/jTFC4flyAzaA7RFP5xDXoSkJsW+QNAeoWBLccDr9OEkTmhj6OoumHm/nLx1fScF+5gB8c3qtBvmsmmvgXU6Mv26TlV0uSD4ogkNazbksOS6+Z/3s6yWZ3cflB7LSEjAuGce7KJfL8JVOYEJXsTsQ6uyWtmbebf0m77tjdraR6UYgDTuFehNbF/yV0c0KBHLI/u9ifaeTksRocsRuzjN5wztzYtJ2ytxDizups8Djg79YRwhNbRegxSU73LwAAAABJRU5ErkJggg==" y="17"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="99" x="559.5" y="79.8516">Other User</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="611" y="96.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="543.5" y="112.917">Users interested in</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="174" x="520" y="129.2139">examining data products,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="165" x="524.5" y="145.5107">algorithm prototypes, or</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="136" x="539" y="161.8076">'open science' style</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="522" y="178.1045">investigations of product</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="164" x="525" y="194.4014">generation  (reproduce,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="117" x="550.5" y="210.6982">re-run, examine).</text><!--MD5=[5b1a34fb7ccf0e6c98f9e955f705d4f2]
+entity di--><rect fill="#999999" height="120.1094" style="stroke:#8A8A8A;stroke-width:1.5;" width="219" x="743.5" y="55.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="104" x="801" y="80.3516">Data Inputs</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="855" y="97.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="760" y="113.417">Originating point of data for</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="753.5" y="129.7139">the project/science teams to</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="766.5" y="146.0107">process into higher level</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="820" y="162.3076">products.</text><!--MD5=[f83ae91a690dfc657e1c5fbbd818f13d]
+entity a--><rect fill="#999999" height="136.4063" style="stroke:#8A8A8A;stroke-width:1.5;" width="218" x="7" y="744"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="66" x="83" y="768.8516">Archive</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="118" y="785.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="43.5" y="801.917">Long term archive for</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="17" y="818.2139">distribution of data products</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="33" y="834.5107">to end users. Examples</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="17.5" y="850.8076">include PDS, DAAC, or other</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="40" y="867.1045">NASA approved entity.</text><!--MD5=[fc7562ffbde78b4c7d1f2da2dc65f3f6]
+link ads to sps--><path d="M1098.3,572.69 C1096.53,623.54 1093.76,703.15 1091.91,756.18 " fill="none" id="ads-to-sps" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1091.62,764.46,1094.9036,756.5722,1088.9074,756.358,1091.62,764.46" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="127" x="1097" y="669.1387">Algorithm Catalog</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="29" x="1146" y="683.1074">[API]</text><!--MD5=[92ad81022682b9d530b4fe311cc5b132]
+link di to ds--><path d="M853.29,175.9 C853.68,254.32 854.36,391.34 854.73,467.33 " fill="none" id="di-to-ds" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="854.77,475.38,857.7271,467.364,851.7272,467.3962,854.77,475.38" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="150" x="855" y="315.1387">Deliver or stage data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="87" x="884.5" y="329.1074">products for</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="78" x="891" y="343.0762">processing</text><!--MD5=[e62589beea1f519b5ecad14667691254]
+link ds to a--><path d="M788.22,570.61 C771.65,580.89 753.59,591.07 736,599 C527.02,693.24 453.16,657.16 241,744 C238.22,745.14 235.41,746.32 232.6,747.54 " fill="none" id="ds-to-a" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="225.13,750.86,233.6594,750.3601,231.2275,744.875,225.13,750.86" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="100" x="656" y="669.1387">Sends data to</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="51" x="682.5" y="683.1074">archive</text><!--MD5=[6e3e330d5b7352e8e99a43456a934d2f]
+link ad to ads--><path d="M1101.63,191.82 C1101.24,271.1 1100.63,394.11 1100.28,465.47 " fill="none" id="ad-to-ads" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1100.24,473.49,1103.2828,465.5062,1097.2829,465.474,1100.24,473.49" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="118" x="1112.5" y="266.1387">Login to develop</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="114" x="1114.5" y="280.1074">algorithms, test</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="81" x="1131" y="294.0762">algorithms,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="104" x="1119.5" y="308.0449">operationalize</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="138" x="1102.5" y="322.0137">workflows, execute</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="86" x="1128.5" y="335.9824">and monitor</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="83" x="1130" y="349.9512">operational</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="139" x="1102" y="363.9199">workflows, validate</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="63" x="1142" y="377.8887">products</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="23" x="1162" y="391.8574">[UI]</text><!--MD5=[39675a6fb45f08ce1b5f0b7f89fa435d]
+link op to sps--><path d="M1312.91,599.01 C1292.72,636.22 1265.13,680.29 1233,714 C1216.98,730.8 1197.59,746.31 1178.31,759.77 " fill="none" id="op-to-sps" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1171.51,764.44,1179.8017,762.3791,1176.4021,757.4352,1171.51,764.44" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="112" x="1310.5" y="641.1387">ensure ongoing</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="143" x="1295" y="655.1074">product generation,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="142" x="1295.5" y="669.0762">monitor processing,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="98" x="1317.5" y="683.0449">triage issues,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="105" x="1314" y="697.0137">ensure archive</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="56" x="1340.5" y="710.9824">delivery</text><!--MD5=[7a2cf216f6ff2f7159f34516be600198]
+link cv to ads--><path d="M1340.13,191.61 C1331.29,254.2 1309.21,341.48 1254,395 C1245.01,403.71 1237.86,396.78 1227,403 C1197.64,419.83 1169.67,444.71 1147.48,467.37 " fill="none" id="cv-to-ads" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1141.67,473.39,1149.3845,469.7175,1145.0675,465.5506,1141.67,473.39" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="145" x="1327" y="301.1387">Calibrate algorithms</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="88" x="1355.5" y="315.1074">and validate</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="112" x="1343.5" y="329.0762">generated data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="136" x="1331.5" y="343.0449">using existing data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="63" x="1370" y="357.0137">products</text><!--MD5=[11bb86a5a5ef2ff4d184409908ffe7b0]
+link ou to ds--><path d="M616.52,224.26 C626.31,282.82 648.08,351.88 696,395 C709.48,407.13 720.02,394.45 736,403 C766.15,419.14 793.61,445.39 814.53,469.14 " fill="none" id="ou-to-ds" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="819.98,475.44,817.0141,467.4273,812.4768,471.3532,819.98,475.44" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="137" x="700" y="273.1387">Users interested in</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="109" x="714" y="287.1074">examining data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="140" x="698.5" y="301.0762">products, algorithm</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="147" x="697" y="315.0449">prototypes, or 'open</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="96" x="720.5" y="329.0137">science' style</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="119" x="709" y="342.9824">investigations of</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="138" x="697.5" y="356.9512">product generation</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="136" x="700.5" y="370.9199">(reproduce, re-run,</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="64" x="738.5" y="384.8887">examine)</text><rect fill="#FFFFFF" height="128.0781" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="144" x="1318" y="893.4063"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="1324" y="913.4014">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1387" y="913.4014"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="1324" y="916.7031"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="1328" y="929.6982">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="1324" y="933"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1328" y="945.9951">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="1324" y="949.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="1328" y="962.292">container</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="1324" y="965.5938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="1328" y="978.5889">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="1324" y="981.8906"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1328" y="994.8857">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="132" x="1324" y="998.1875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="1328" y="1011.1826">external container</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1324" x2="1456" y1="900.4063" y2="900.4063"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1324" x2="1456" y1="916.7031" y2="916.7031"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1324" x2="1456" y1="933" y2="933"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1324" x2="1456" y1="949.2969" y2="949.2969"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1324" x2="1456" y1="965.5938" y2="965.5938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1324" x2="1456" y1="981.8906" y2="981.8906"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1324" x2="1456" y1="998.1875" y2="998.1875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1324" x2="1456" y1="1014.4844" y2="1014.4844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1324" x2="1324" y1="900.4063" y2="1014.4844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1456" x2="1456" y1="900.4063" y2="1014.4844"/><!--MD5=[852b814a7030b82d27678a1c0d9ab283]
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Container.puml
+
+!global $USC_DESC = "Platform wide tool and functional implementations including authentication and authorization, metrics publication, logging services, deployment and build systems"
+!global $AS_DESC = "Higher level data functions to access and transform data."
+!global $ADS_DESC = "Subsystem for developing and assembling science algorithms into an algorithm catalog"
+!global $SPS_DESC = "Subsystem for the generation of science data products through the combination of Algorithms and Data"
+!global $DS_DESC = "Subsystem for ingestion, storage, and access to data products for use in the Unity System."
+
+
+LAYOUT_WITH_LEGEND()
+
+Person(ad, "Algorithm Developer", "Teams responsible for the development of science algorithms")
+Person(op, "Operator", "Teams responsible for the operational production and monitoring of products.")
+Person(cv, "Cal/Val", "Teams responsible for the calibration & validation of data products.")
+Person_Ext(ou, "Other User", "Users interested in examining data products, algorithm prototypes, or 'open science' style investigations of product generation  (reproduce, re-run, examine).")
+
+System_Ext(di, "Data Inputs", "Originating point of data for the project/science teams to process into higher level products.")
+System_Ext(a, "Archive", "Long term archive for distribution of data products to end users. Examples include PDS, DAAC, or other NASA approved entity.")
+
+System_Boundary(u, "Unity") {
+    Container(ads, "Algorithm Development", $ADS_DESC)
+    Container(sps, "Science Processing", $SPS_DESC)
+    Container(ds, "Data Services", $DS_DESC)
+    Container(as, "Analysis Services", $AS_DESC)
+    Container(cs, "Common Services", $USC_DESC)
+
+    Rel(ads, sps, "Algorithm Catalog", "API")
+}
+
+Rel(di, ds, "Deliver or stage data products for processing")
+Rel(ds, a, "Sends data to archive")
+Rel(ad, ads, "Login to develop algorithms, test algorithms, operationalize workflows, execute and monitor operational workflows, validate products", "UI")
+Rel(op, sps, "ensure ongoing product generation, monitor processing, triage issues, ensure archive delivery")
+Rel(cv,ads, "Calibrate algorithms and validate generated data using existing data products")
+Rel(ou, ds, "Users interested in examining data products, algorithm prototypes, or 'open science' style investigations of product generation  (reproduce, re-run, examine)")
+
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+endlegend
+
+rectangle "<$person>\n==Algorithm Developer\n\n Teams responsible for the development of science algorithms" <<person>> as ad
+rectangle "<$person>\n==Operator\n\n Teams responsible for the operational production and monitoring of products." <<person>> as op
+rectangle "<$person>\n==Cal/Val\n\n Teams responsible for the calibration & validation of data products." <<person>> as cv
+rectangle "<$person>\n==Other User\n\n Users interested in examining data products, algorithm prototypes, or 'open science' style investigations of product generation  (reproduce, re-run, examine)." <<external_person>> as ou
+
+rectangle "==Data Inputs\n\n Originating point of data for the project/science teams to process into higher level products." <<external_system>> as di
+rectangle "==Archive\n\n Long term archive for distribution of data products to end users. Examples include PDS, DAAC, or other NASA approved entity." <<external_system>> as a
+
+rectangle "==Unity\n<size:12>[System]</size>" <<boundary>> as u {
+    rectangle "==Algorithm Development\n//<size:12>[Subsystem for developing and assembling science algorithms into an algorithm catalog]</size>//" <<container>> as ads
+    rectangle "==Science Processing\n//<size:12>[Subsystem for the generation of science data products through the combination of Algorithms and Data]</size>//" <<container>> as sps
+    rectangle "==Data Services\n//<size:12>[Subsystem for ingestion, storage, and access to data products for use in the Unity System.]</size>//" <<container>> as ds
+    rectangle "==Analysis Services\n//<size:12>[Higher level data functions to access and transform data.]</size>//" <<container>> as as
+    rectangle "==Common Services\n//<size:12>[Platform wide tool and functional implementations including authentication and authorization, metrics publication, logging services, deployment and build systems]</size>//" <<container>> as cs
+
+ads - ->> sps : **Algorithm Catalog**\n//<size:12>[API]</size>//
+}
+
+di - ->> ds : **Deliver or stage data products for processing**
+ds - ->> a : **Sends data to archive**
+ad - ->> ads : **Login to develop algorithms, test algorithms, operationalize workflows, execute and monitor operational workflows, validate products**\n//<size:12>[UI]</size>//
+op - ->> sps : **ensure ongoing product generation, monitor processing, triage issues, ensure archive delivery**
+cv - ->> ads : **Calibrate algorithms and validate generated data using existing data products**
+ou - ->> ds : **Users interested in examining data products, algorithm prototypes, or 'open science' style investigations of product generation  (reproduce, re-run, examine)**
+
+@enduml
+
+PlantUML version 1.2021.12(Tue Oct 05 16:01:58 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
