@@ -1,0 +1,42 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+'Global vars repeated for referencing other common systems
+!global $USC_DESC = "Platform wide tool and functional implementations including authentication and authorization, metrics publication, logging services, deployment and build systems"
+!global $AS_DESC = "Higher level data functions to access and transform data."
+!global $ADS_DESC = "Subsystem for developing and assembling science algorithms into an algorithm catalog"
+!global $SPS_DESC = "Subsystem for the generation of science data products through the combination of Algorithms and Data"
+!global $DS_DESC = "Subsystem for ingestion, storage, and access to data products for use in the Unity System."
+
+LAYOUT_WITH_LEGEND()
+
+'Global 'external systems' definitions
+
+System_Boundary(ext, "Services Areas") {
+
+  System_Ext(sps, "Science Processing", $SPS_DESC)
+  System_Ext(ds, "Data Services", $DS_DESC)
+  System_Ext(as, "Analysis Services", $AS_DESC)
+  'System_Ext(cs, "Common Services", $USC_DESC)
+System_Ext(ads, "Algorithm Development", $ADS_DESC)
+}
+
+System_Boundary(cs, "Common Services") {
+    Container(auth, "Authentication Service", "Cognito, SSO", "Authenticate and authorize users at point of request")
+    Container(lggng, "Logging Services", "TBD", "Provides a systematic way for other service areas to publish logs")
+    Container(mtrcs, "Metrics Services", "TBD", "Provides a systematic way for other service areas to publish metrics")
+    Container(ntfy, "Notification Services", "TBD", "Provides a systematic way for other service areas to provide machine-to-machine and machine-to-user notifications")
+
+    Container(deployment, "Deployment Services", "TBD", "Provides registries, artifact control, and deployment support for other service areas.")
+
+    Rel(deployment, ext, "Supports Deployment of")
+    Rel(auth, ext, "Authenticates users")
+}
+
+Rel(ext, lggng, "Publishes Logs", "http")
+Rel(ext, mtrcs, "Publishes Metrics", "http")
+Rel(ext, ntfy, "Notifies", "email/http")
+
+
+
+@enduml

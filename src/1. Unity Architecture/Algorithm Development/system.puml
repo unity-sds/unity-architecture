@@ -20,10 +20,10 @@ System_Ext(cs, "Common Services", $USC_DESC)
 
 System_Boundary(ADS, "Algorithm Development") {
     Container(ac, "Algorithm Catalog", "cmr", "Allows users to sign in to the internet banking system")
-    Component(ec, "Eclipse Che", "eclipse che", "Provides customers with a summary of their bank accounts")
-    Component(jn, "Jupyter Notebooks", "jupyter", "Provides functionality related to singing in, changing passwords, etc.")
-    Component(cicd, "build system", "jenkins", "Provides functionality related to singing in, changing passwords, etc.")
-    Component(git, "source control", "git", "Provides functionality related to singing in, changing passwords, etc.")
+    Container(ec, "Eclipse Che", "eclipse che", "Provides customers with a summary of their bank accounts")
+    Container(jn, "Jupyter Notebooks", "jupyter", "Provides functionality related to singing in, changing passwords, etc.")
+    Container(cicd, "build system", "jenkins", "Provides functionality related to singing in, changing passwords, etc.")
+    Container(git, "source control", "git", "Provides functionality related to singing in, changing passwords, etc.")
 
     Rel(ec, git, "pushes to")
     Rel(jn, git, "pushes to")
@@ -31,6 +31,7 @@ System_Boundary(ADS, "Algorithm Development") {
     Rel(cicd, ac, "publishes to")
 }
 
+Rel(jn, ds, "Access Data", "HTTP")
 Rel(sps, ac, "Uses", "JSON/HTTPS")
 
 @enduml

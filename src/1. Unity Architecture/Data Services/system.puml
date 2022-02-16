@@ -1,0 +1,40 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+'Global vars repeated for referencing other common systems
+!global $USC_DESC = "Platform wide tool and functional implementations including authentication and authorization, metrics publication, logging services, deployment and build systems"
+!global $AS_DESC = "Higher level data functions to access and transform data."
+!global $ADS_DESC = "Subsystem for developing and assembling science algorithms into an algorithm catalog"
+!global $SPS_DESC = "Subsystem for the generation of science data products through the combination of Algorithms and Data"
+!global $DS_DESC = "Subsystem for ingestion, storage, and access to data products for use in the Unity System."
+
+LAYOUT_WITH_LEGEND()
+
+'Global 'external systems' definitions
+System_Ext(sps, "Science Processing", $SPS_DESC)
+'System_Ext(ds, "Data Services", $DS_DESC)
+System_Ext(as, "Analysis Services", $AS_DESC)
+System_Ext(cs, "Common Services", $USC_DESC)
+System_Ext(ads, "Algorithm Development", $ADS_DESC)
+
+System_Ext(archive, "Archive", "Long term archive for distribution of data products to end users. Examples include PDS, DAAC, or other NASA approved entity.")
+
+
+System_Boundary(UDS, "Data Services") {
+    Container(ds, "Ingest and Archive System", "Cumulus", "Ingest, basic catalog and persistent Storage of data products")
+    Container(cmr, "Metadata Search", "CMR", "Provides customers with a summary of their bank accounts")
+    Container(fb, "Fast Browse", "WMTS", "Allows the retrieval of tiled images for fast visual browse.")
+
+    Rel(ds, cmr, "catalogs umm metadata in")
+    Rel(ds, fb, "Registers tiles in")
+}
+
+Rel(ds, sps, "SPS accesses data for processing", "S3")
+Rel(ds, as, "AS accesses data for transformation", "S3")
+
+Rel(sps, ds, "Registers Generated Data", "CNM")
+Rel(ads, ds, "Retrieves generated data from", "CNM")
+Rel(ds, cs, "Registers data provenance in", "HTTP")
+Rel(UDS, archive, "Archives data", "CNM")
+
+@enduml

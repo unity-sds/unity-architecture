@@ -1,12 +1,11 @@
-**Level 3: Component diagram**
+# Science Processing Services
 
-Next you can zoom in and decompose each container further to identify the major structural building blocks and their interactions.
+The Science Processing Service (SPS) system is responsible for deployment and execution of algorithms to create new data products. The SPS leverages OGC WPS-T standards for the deployment, request, and status of data production requests.
 
-The Component diagram shows how a container is made up of a number of "components", what each of those components are, their responsibilities and the technology/implementation details.
+**Execution Management Service (EMS)** - Transactional service for deploying workflows, requesting/monitoring/stopping workflow execution, and quoting processing cost estimates.
 
-**Scope**: A single container.
+**Algorithm Deployment and Execution Service (ADES)** - the processing environment for the execution of workflow jobs and tasks. ADES can be shared across projects or owned by a single project for cost monitoring/controls.
 
-**Primary elements**: Components within the container in scope.
-Supporting elements: Containers (within the software system in scope) plus people and software systems directly connected to the components.
+**Workflow Catalog** - Registry and storage for workflows. Used in sharing and referenced for execution of product processing.
 
-**Intended audience**: Software architects and developers.
+**Workflow Builder** - A user friend interface for build workflows.

@@ -1,0 +1,35 @@
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+'Global vars repeated for referencing other common systems
+!global $USC_DESC = "Platform wide tool and functional implementations including authentication and authorization, metrics publication, logging services, deployment and build systems"
+!global $AS_DESC = "Higher level data functions to access and transform data."
+!global $ADS_DESC = "Subsystem for developing and assembling science algorithms into an algorithm catalog"
+!global $SPS_DESC = "Subsystem for the generation of science data products through the combination of Algorithms and Data"
+!global $DS_DESC = "Subsystem for ingestion, storage, and access to data products for use in the Unity System."
+
+LAYOUT_WITH_LEGEND()
+
+'Global 'external systems' definitions
+
+System_Ext(sps, "Science Processing", $SPS_DESC)
+System_Ext(ds, "Data Services", $DS_DESC)
+'System_Ext(as, "Analysis Services", $AS_DESC)
+System_Ext(cs, "Common Services", $USC_DESC)
+System_Ext(ads, "Algorithm Development", $ADS_DESC)
+
+
+System_Boundary(as, "analysis Services") {
+    Container(trnsfrm, "Transformation Service", "WCS, WCPS", "Transforms data products")
+    Container(aods, "Analysis Optimized Data Stores (AODS)","", "Storage of non-optimized data in analysis optimized formats")
+
+    Rel(trnsfrm, aods, "Retrieves Data From")
+}
+
+Rel(aods, ds, "optimizes and storess data from")
+Rel(trnsfrm, ds, "Retrieves Data From")
+Rel(trnsfrm, sps, "Requests large scale processing from")
+
+Rel(ads,trnsfrm, "Requests transformed data from")
+
+@enduml

@@ -1,24 +1,41 @@
 @startuml
 !include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
 
+'Global vars repeated for referencing other common systems
+!global $USC_DESC = "Platform wide tool and functional implementations including authentication and authorization, metrics publication, logging services, deployment and build systems"
+!global $AS_DESC = "Higher level data functions to access and transform data."
+!global $ADS_DESC = "Subsystem for developing and assembling science algorithms into an algorithm catalog"
+!global $SPS_DESC = "Subsystem for the generation of science data products through the combination of Algorithms and Data"
+!global $DS_DESC = "Subsystem for ingestion, storage, and access to data products for use in the Unity System."
+
 LAYOUT_WITH_LEGEND()
 
-System_Ext(ads, "Algorithm Development", "desc")
-System_Ext(ds, "Data Services", "", "desc")
-System_Ext(as, "Analysis Services", "", "desc")
-System_Ext(cs, "Common Services", "", "desc")
+'Global 'external systems' definitions. Edit to remove current area.
+'System_Ext(sps, "Science Processing", $SPS_DESC)
+System_Ext(ds, "Data Services", $DS_DESC)
+System_Ext(as, "Analysis Services", $AS_DESC)
+System_Ext(cs, "Common Services", $USC_DESC)
+System_Ext(ads, "Algorithm Development", $ADS_DESC)
+Person(op, "Operator", "Teams responsible for the operational production and monitoring of products.")
+
+
+'Define system_boundary, containers, and connections
 
 System_Boundary(sps, "Science Processing") {
-    Container(wc, "Workflow Catalog", "JSON/HTTPS", "Workflow catalog for build, registering, and deploying workflows")
-    Component(ems, "Execution Management Service", "OGC WPS-T", "Allows request of workflow deployment and product processing")
-    Component(ades, "Algorithm Deployment and Execution System", "WPS-T", "Execute the algorithms to generate products")
+    Container(wc, "Workflow Catalog", "TBD", "Workflow catalog for build, registering, and deploying workflows")
+    Container(wb, "Workflow Builder", "TBD", "Workflow catalog for build, registering, and deploying workflows")
+    Component(ems, "Execution Management Service", "WPS-T", "Allows request of workflow deployment and product processing")
+    Component(ades, "Algorithm Deployment and Execution System", "WPS-T: HySDS, Others", "Execute the algorithms to generate products")
 
-    Rel(ems, ades, "executes algorithms on")
+    Rel(ems, ades, "deploys and executes algorithms on")
+    Rel(wb, wc, "Registers workflows on")
 }
 
+Rel(op, ems, "Requests and monitors executions")
 Rel(ads, ems, "requests execution", "OGC WPS-T")
 Rel(as, ems, "requests execution", "OGC WPS-T")
 
-Rel(ades, ds, "Writes data", "HTTPS")
+Rel( ds, ades, "Stages data products", "S3")
+Rel(ades, ds, "Catalogs data", "CNM")
 
 @enduml
