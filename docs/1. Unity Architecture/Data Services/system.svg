@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="899px" preserveAspectRatio="none" style="width:1262px;height:899px;background:#FFFFFF;" version="1.1" viewBox="0 0 1262 899" width="1262px" zoomAndPan="magnify"><defs/><g><!--MD5=[26883a742dd7c94a71fa058fc72d7bad]
+cluster UDS--><rect fill="#FFFFFF" height="465.5" style="stroke:#444444;stroke-width:1.0;stroke-dasharray:7.0,7.0;" width="507" x="7" y="243"/><text fill="#444444" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="122" x="199.5" y="259.8516">Data Services</text><text fill="#444444" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="62" x="229.5" y="274.7637">[System]</text><!--MD5=[727c1040af9be188ab17d19c49f9ac10]
+entity ds--><rect fill="#438DD5" height="136.4063" style="stroke:#3C7FC0;stroke-width:1.5;" width="203" x="267.5" y="302"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="167" x="282.5" y="326.8516">Ingest and Archive</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="66" x="336" y="345.4766">System</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="62" x="338" y="360.3887">[Cumulus]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="371" y="376.2139"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="171" x="283.5" y="392.5107">Ingest, basic catalog and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="277.5" y="408.8076">persistent Storage of data</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="338" y="425.1045">products</text><!--MD5=[5d03f27da8fde5c71e244cdb7d4def2c]
+entity cmr--><rect fill="#438DD5" height="117.7813" style="stroke:#3C7FC0;stroke-width:1.5;" width="209" x="272.5" y="566.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="151" x="301.5" y="591.3516">Metadata Search</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="36" x="359" y="606.2637">[CMR]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="379" y="622.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="181" x="286.5" y="638.3857">Provides customers with a</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="153" x="298.5" y="654.6826">summary of their bank</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="64" x="345" y="670.9795">accounts</text><!--MD5=[90ffe57d7e472346980a4e6a48d8acfa]
+entity fb--><rect fill="#438DD5" height="117.7813" style="stroke:#3C7FC0;stroke-width:1.5;" width="206" x="31" y="566.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="111" x="78.5" y="591.3516">Fast Browse</text><text fill="#FFFFFF" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="47" x="110.5" y="606.2637">[WMTS]</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="136" y="622.0889"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="178" x="45" y="638.3857">Allows the retrieval of tiled</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="143" x="60.5" y="654.6826">images for fast visual</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="106.5" y="670.9795">browse.</text><!--MD5=[3fffc34736d2f7e76958dc3c596e3531]
+entity sps--><rect fill="#999999" height="136.4063" style="stroke:#8A8A8A;stroke-width:1.5;" width="208" x="147" y="8.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="172" x="165" y="33.3516">Science Processing</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="253" y="50.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="188" y="66.417">Subsystem for the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="157" y="82.7139">generation of science data</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="175" y="99.0107">products through the</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="159.5" y="115.3076">combination of Algorithms</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="62" x="220" y="131.6045">and Data</text><!--MD5=[a9d198bd5c1c9d64f3f6943bebfbf470]
+entity as--><rect fill="#999999" height="103.8125" style="stroke:#8A8A8A;stroke-width:1.5;" width="210" x="538" y="573.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="152" x="567" y="598.3516">Analysis Services</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="645" y="615.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="182" x="552" y="631.417">Higher level data functions</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="557.5" y="647.7139">to access and transform</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="34" x="626" y="664.0107">data.</text><!--MD5=[d5096230de5c7e9b5a3d1997ba7f37f3]
+entity cs--><rect fill="#999999" height="169" style="stroke:#8A8A8A;stroke-width:1.5;" width="219" x="783.5" y="541"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="158" x="814" y="565.8516">Common Services</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="895" y="582.6201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="817" y="598.917">Platform wide tool and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="186" x="798" y="615.2139">functional implementations</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="195" x="793.5" y="631.5107">including authentication and</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="816.5" y="647.8076">authorization, metrics</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="199" x="793.5" y="664.1045">publication, logging services,</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="149" x="816.5" y="680.4014">deployment and build</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="864" y="696.6982">systems</text><!--MD5=[d4c4ca0c6539aad8b80246bd3465f857]
+entity ads--><rect fill="#999999" height="138.7344" style="stroke:#8A8A8A;stroke-width:1.5;" width="215" x="451.5" y="7"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="85" x="513.5" y="31.8516">Algorithm</text><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="117" x="500.5" y="50.4766">Development</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="561" y="67.2451"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="179" x="469.5" y="83.542">Subsystem for developing</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="167" x="473.5" y="99.8389">and assembling science</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="191" x="461.5" y="116.1357">algorithms into an algorithm</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="534" y="132.4326">catalog</text><!--MD5=[a8305b23d211bc1ccd9424c697ead2f2]
+entity archive--><rect fill="#999999" height="136.4063" style="stroke:#8A8A8A;stroke-width:1.5;" width="218" x="1038" y="557.5"/><text fill="#FFFFFF" font-family="sans-serif" font-size="16" font-weight="bold" lengthAdjust="spacing" textLength="66" x="1114" y="582.3516">Archive</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1149" y="599.1201"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="1074.5" y="615.417">Long term archive for</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="194" x="1048" y="631.7139">distribution of data products</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="162" x="1064" y="648.0107">to end users. Examples</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="193" x="1048.5" y="664.3076">include PDS, DAAC, or other</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="1071" y="680.6045">NASA approved entity.</text><!--MD5=[1752fd400c1e59390568b5c63c91457d]
+link ds to cmr--><path d="M371.12,438.27 C372.29,475.36 373.74,521.24 374.91,558.18 " fill="none" id="ds-to-cmr" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="375.17,566.4,377.9254,558.3125,371.9282,558.4949,375.17,566.4" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="98" x="374" y="487.1387">catalogs umm</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="86" x="382" y="501.1074">metadata in</text><!--MD5=[4f0dd796c22f3c3a8520ce288b6be380]
+link ds to fb--><path d="M274.22,438 C262.89,447.55 251.86,457.66 242,468 C215.86,495.44 191.44,529.73 172.46,559.23 " fill="none" id="ds-to-fb" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="168.01,566.22,174.8409,561.0879,169.782,557.8618,168.01,566.22" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="120" x="243" y="494.1387">Registers tiles in</text><!--MD5=[ffe3e732a9639be178da20d3a5a1095a]
+link ds to sps--><path d="M267.12,310.32 C235.43,286.4 204.29,255.66 187,219 C176.77,197.31 181.37,173.61 191.74,151.92 " fill="none" id="ds-to-sps" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="195.46,144.64,189.1482,150.3986,194.491,153.1289,195.46,144.64" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="133" x="188" y="188.1387">SPS accesses data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="102" x="205.5" y="202.1074">for processing</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="26" x="243.5" y="216.0762">[S3]</text><!--MD5=[12853f797ecbccb97d7945848cad75a9]
+link sps to ds--><path d="M311.57,144.67 C318.57,154.7 324.98,165.28 330,176 C347.17,212.7 356.81,256.79 362.2,293.56 " fill="none" id="sps-to-ds" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="363.35,301.77,365.2074,293.4303,359.2658,294.2654,363.35,301.77" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="148" x="346" y="188.1387">Registers Generated</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="34" x="403" y="202.1074">Data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="37" x="401.5" y="216.0762">[CNM]</text><!--MD5=[4bb0246b24efa3458e4019418427926f]
+link ds to as--><path d="M451.18,438.25 C462.67,448.08 474.23,458.19 485,468 C520.06,499.92 557.85,537.23 587.67,567.42 " fill="none" id="ds-to-as" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="593.53,573.35,590.0437,565.5496,585.7743,569.7654,593.53,573.35" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="148" x="530" y="480.1387">AS accesses data for</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="107" x="550.5" y="494.1074">transformation</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="26" x="591" y="508.0762">[S3]</text><!--MD5=[c623f8eb9b9b99b5edfde57cdad58ab8]
+link ads to ds--><path d="M545.46,146.22 C537.17,172.19 523.95,200.02 503,219 C493.41,227.69 485.65,219.65 475,227 C449.54,244.57 427.73,270.24 410.62,294.94 " fill="none" id="ads-to-ds" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="405.93,301.87,412.9031,296.9329,407.9374,293.5652,405.93,301.87" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="146" x="532" y="188.1387">Retrieves generated</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="69" x="572.5" y="202.1074">data from</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="37" x="588.5" y="216.0762">[CNM]</text><!--MD5=[4327822f3cd29a5a620f738e948d832f]
+link ds to cs--><path d="M470.71,436.36 C472.14,436.93 473.57,437.47 475,438 C564.32,470.82 599.17,431.37 687,468 C726.15,484.33 764.46,509.91 797.21,535.7 " fill="none" id="ds-to-cs" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="803.68,540.86,799.2928,533.5284,795.5538,538.2209,803.68,540.86" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="105" x="762" y="480.1387">Registers data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="100" x="766.5" y="494.1074">provenance in</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="40" x="796.5" y="508.0762">[HTTP]</text><!--MD5=[e3f069aa297629b3d102948ea47a4205]
+link UDS to archive--><path d="M514.1599,372.4059 C514.5124,372.4677 514.8758,372.5317 515.2498,372.5976 C515.9979,372.7295 516.7888,372.8695 517.6215,373.0175 C524.2828,374.2019 533.6191,375.9026 545.1325,378.1027 C568.1594,382.5028 599.895,388.9006 636.3575,397.1613 C709.2825,413.6825 801.115,437.655 880,468 C945.49,493.19 959.49,505.46 1020,541 C1026.65,544.91 1033.45,549.02 1040.26,553.22 " fill="none" id="UDS-to-archive" style="stroke:#666666;stroke-width:1.0;"/><polygon fill="#666666" points="1047.07,557.46,1041.867,550.6829,1038.6938,555.7751,1047.07,557.46" style="stroke:#666666;stroke-width:1.0;"/><text fill="#666666" font-family="sans-serif" font-size="12" font-weight="bold" lengthAdjust="spacing" textLength="96" x="969" y="487.1387">Archives data</text><text fill="#666666" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="37" x="998.5" y="501.1074">[CNM]</text><rect fill="#FFFFFF" height="160.6719" rx="5" ry="5" style="stroke:#FFFFFF;stroke-width:1.0;" width="159" x="1081" y="723"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="59" x="1087" y="742.9951">Legend</text><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="0" x="1150" y="742.9951"/><rect fill="#08427B" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="1087" y="746.2969"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="49" x="1091" y="759.292">person</text><rect fill="#1168BD" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="1087" y="762.5938"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="1091" y="775.5889">system</text><rect fill="#438DD5" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="1087" y="778.8906"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="1091" y="791.8857">container</text><rect fill="#85BBF0" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="1087" y="795.1875"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="1091" y="808.1826">component</text><rect fill="#686868" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="1087" y="811.4844"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="1091" y="824.4795">external person</text><rect fill="#999999" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="1087" y="827.7813"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1091" y="840.7764">external system</text><rect fill="#B3B3B3" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="1087" y="844.0781"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="1091" y="857.0732">external container</text><rect fill="#CCCCCC" height="16.2969" style="stroke:none;stroke-width:1.0;" width="147" x="1087" y="860.375"/><text fill="#FFFFFF" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="139" x="1091" y="873.3701">external component</text><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1087" x2="1234" y1="730" y2="730"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1087" x2="1234" y1="746.2969" y2="746.2969"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1087" x2="1234" y1="762.5938" y2="762.5938"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1087" x2="1234" y1="778.8906" y2="778.8906"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1087" x2="1234" y1="795.1875" y2="795.1875"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1087" x2="1234" y1="811.4844" y2="811.4844"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1087" x2="1234" y1="827.7813" y2="827.7813"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1087" x2="1234" y1="844.0781" y2="844.0781"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1087" x2="1234" y1="860.375" y2="860.375"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1087" x2="1234" y1="876.6719" y2="876.6719"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1087" x2="1087" y1="730" y2="876.6719"/><line style="stroke:#FFFFFF;stroke-width:1.0;" x1="1234" x2="1234" y1="730" y2="876.6719"/><!--MD5=[aac52edab19453f5ae6496c78ad46abd]
+@startuml
+!include https://raw.githubusercontent.com/adrianvlupu/C4-PlantUML/latest/C4_Component.puml
+
+'Global vars repeated for referencing other common systems
+!global $USC_DESC = "Platform wide tool and functional implementations including authentication and authorization, metrics publication, logging services, deployment and build systems"
+!global $AS_DESC = "Higher level data functions to access and transform data."
+!global $ADS_DESC = "Subsystem for developing and assembling science algorithms into an algorithm catalog"
+!global $SPS_DESC = "Subsystem for the generation of science data products through the combination of Algorithms and Data"
+!global $DS_DESC = "Subsystem for ingestion, storage, and access to data products for use in the Unity System."
+
+LAYOUT_WITH_LEGEND()
+
+'Global 'external systems' definitions
+System_Ext(sps, "Science Processing", $SPS_DESC)
+'System_Ext(ds, "Data Services", $DS_DESC)
+System_Ext(as, "Analysis Services", $AS_DESC)
+System_Ext(cs, "Common Services", $USC_DESC)
+System_Ext(ads, "Algorithm Development", $ADS_DESC)
+
+System_Ext(archive, "Archive", "Long term archive for distribution of data products to end users. Examples include PDS, DAAC, or other NASA approved entity.")
+
+
+System_Boundary(UDS, "Data Services") {
+    Container(ds, "Ingest and Archive System", "Cumulus", "Ingest, basic catalog and persistent Storage of data products")
+    Container(cmr, "Metadata Search", "CMR", "Provides customers with a summary of their bank accounts")
+    Container(fb, "Fast Browse", "WMTS", "Allows the retrieval of tiled images for fast visual browse.")
+
+    Rel(ds, cmr, "catalogs umm metadata in")
+    Rel(ds, fb, "Registers tiles in")
+}
+
+Rel(ds, sps, "SPS accesses data for processing", "S3")
+Rel(ds, as, "AS accesses data for transformation", "S3")
+
+Rel(sps, ds, "Registers Generated Data", "CNM")
+Rel(ads, ds, "Retrieves generated data from", "CNM")
+Rel(ds, cs, "Registers data provenance in", "HTTP")
+Rel(UDS, archive, "Archives data", "CNM")
+
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam defaultTextAlignment center
+
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam LegendBorderColor transparent
+skinparam LegendBackgroundColor transparent
+skinparam LegendFontColor #FFFFFF
+
+skinparam rectangle {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam database {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam queue {
+    StereotypeFontSize 12
+    shadowing false
+}
+
+skinparam Arrow {
+    Color #666666
+    FontColor #666666
+    FontSize 12
+}
+
+skinparam rectangle<<boundary>> {
+    Shadowing false
+    StereotypeFontSize 0
+    FontColor #444444
+    BorderColor #444444
+    BorderStyle dashed
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #08427B
+    BorderColor #073B6F
+}
+
+skinparam rectangle<<external_person>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #686868
+    BorderColor #8A8A8A
+}
+
+skinparam rectangle<<system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #1168BD
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_system>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #999999
+    BorderColor #8A8A8A
+}
+
+sprite $person [48x48/16] {
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+0000000000000000000049BCCA7200000000000000000000
+0000000000000000006EFFFFFFFFB3000000000000000000
+00000000000000001CFFFFFFFFFFFF700000000000000000
+0000000000000001EFFFFFFFFFFFFFF80000000000000000
+000000000000000CFFFFFFFFFFFFFFFF6000000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+00000000000001FFFFFFFFFFFFFFFFFFF900000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFF00000000000000
+0000000000000BFFFFFFFFFFFFFFFFFFFF40000000000000
+0000000000000EFFFFFFFFFFFFFFFFFFFF70000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000FFFFFFFFFFFFFFFFFFFFF80000000000000
+0000000000000DFFFFFFFFFFFFFFFFFFFF60000000000000
+0000000000000AFFFFFFFFFFFFFFFFFFFF40000000000000
+00000000000006FFFFFFFFFFFFFFFFFFFE00000000000000
+00000000000000EFFFFFFFFFFFFFFFFFF800000000000000
+000000000000007FFFFFFFFFFFFFFFFFF100000000000000
+000000000000000BFFFFFFFFFFFFFFFF5000000000000000
+0000000000000001DFFFFFFFFFFFFFF70000000000000000
+00000000000000000BFFFFFFFFFFFF500000000000000000
+0000000000000000005DFFFFFFFFA1000000000000000000
+0000000000000000000037ABB96100000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+000000000000025788300000000005886410000000000000
+000000000007DFFFFFFD9643347BFFFFFFFB400000000000
+0000000004EFFFFFFFFFFFFFFFFFFFFFFFFFFB1000000000
+000000007FFFFFFFFFFFFFFFFFFFFFFFFFFFFFD200000000
+00000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE10000000
+0000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB0000000
+000000BFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF5000000
+000003FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD000000
+000009FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF200000
+00000DFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF600000
+00000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF800000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFB00000
+00001FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA00000
+00000EFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF700000
+000006FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE100000
+0000008FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFD3000000
+000000014555555555555555555555555555555300000000
+000000000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam database<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam queue<<container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #438DD5
+    BorderColor #3C7FC0
+}
+
+skinparam rectangle<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam database<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+skinparam queue<<external_container>> {
+    StereotypeFontColor #FFFFFF
+    FontColor #FFFFFF
+    BackgroundColor #B3B3B3
+    BorderColor #A6A6A6
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+skinparam rectangle<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam database<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam queue<<component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #85BBF0
+    BorderColor #78A8D8
+}
+
+skinparam rectangle<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam database<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+skinparam queue<<external_component>> {
+    StereotypeFontColor #000000
+    FontColor #000000
+    BackgroundColor #CCCCCC
+    BorderColor #BFBFBF
+}
+
+
+
+
+
+
+
+
+
+
+
+
+hide stereotype
+legend right
+|<color:#000000>**Legend**</color> |
+|<#08427B> person |
+|<#1168BD> system |
+|<#438DD5> container |
+|<#85BBF0> component |
+|<#686868> external person |
+|<#999999> external system |
+|<#B3B3B3> external container |
+|<#CCCCCC> external component |
+endlegend
+
+rectangle "==Science Processing\n\n Subsystem for the generation of science data products through the combination of Algorithms and Data" <<external_system>> as sps
+rectangle "==Analysis Services\n\n Higher level data functions to access and transform data." <<external_system>> as as
+rectangle "==Common Services\n\n Platform wide tool and functional implementations including authentication and authorization, metrics publication, logging services, deployment and build systems" <<external_system>> as cs
+rectangle "==Algorithm Development\n\n Subsystem for developing and assembling science algorithms into an algorithm catalog" <<external_system>> as ads
+
+rectangle "==Archive\n\n Long term archive for distribution of data products to end users. Examples include PDS, DAAC, or other NASA approved entity." <<external_system>> as archive
+
+
+rectangle "==Data Services\n<size:12>[System]</size>" <<boundary>> as UDS {
+    rectangle "==Ingest and Archive System\n//<size:12>[Cumulus]</size>//\n\n Ingest, basic catalog and persistent Storage of data products" <<container>> as ds
+    rectangle "==Metadata Search\n//<size:12>[CMR]</size>//\n\n Provides customers with a summary of their bank accounts" <<container>> as cmr
+    rectangle "==Fast Browse\n//<size:12>[WMTS]</size>//\n\n Allows the retrieval of tiled images for fast visual browse." <<container>> as fb
+
+ds - ->> cmr : **catalogs umm metadata in**
+ds - ->> fb : **Registers tiles in**
+}
+
+ds - ->> sps : **SPS accesses data for processing**\n//<size:12>[S3]</size>//
+ds - ->> as : **AS accesses data for transformation**\n//<size:12>[S3]</size>//
+
+sps - ->> ds : **Registers Generated Data**\n//<size:12>[CNM]</size>//
+ads - ->> ds : **Retrieves generated data from**\n//<size:12>[CNM]</size>//
+ds - ->> cs : **Registers data provenance in**\n//<size:12>[HTTP]</size>//
+UDS - ->> archive : **Archives data**\n//<size:12>[CNM]</size>//
+
+@enduml
+
+PlantUML version 1.2021.12(Tue Oct 05 16:01:58 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
