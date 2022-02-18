@@ -1,0 +1,46 @@
+@startuml
+title ADES Data Stage Out
+
+start
+note right
+  Data StageOut Volume
+  + Catalog.json (STAC Catalog)
+  ====
+  File organized in out folder with STAC Documents
+end note
+
+repeat :for each child or item in Catalog.json;
+
+  partition "Resource Shipping Module" {
+
+      :Upload or link data Files
+      from **Data StageOut volume**
+      to Resource Manager;
+      note right
+        Resource Manager Storage
+        ====
+        - U-DS S3
+      end note
+      :Publish or Register data, metadata, and provenance;
+      note right
+        U-DS Catalog
+        ====
+        - CNM
+      end note
+
+  }
+
+  :Generate **STAC documents**
+   for all the copied files;
+
+repeat while (More Parameters?) is (yes)
+:Generate WPS Execution Report;
+note right
+  OGC API Processes Execute Response
+  ====
+end note
+
+stop
+
+
+@enduml

@@ -1,0 +1,65 @@
+@startuml
+title ADES Data Stage In
+
+start
+:Prepare a **data stagein Volume**;
+:Read all  `**directory**`
+workflow parameters in
+CWL;
+note right
+  App Package CWL
+  ====
+end note
+
+repeat :for each parameter;
+  :Read correseponding **input**
+  in job's Execution Order;
+  note right
+    OGC API Processes
+    ====
+  end note
+  partition "Resource Supply Module" {
+
+      :Resolve Resource(s) link(s);
+      note right
+        Resource Managers
+        ====
+        - HTTPS/S3
+        - Search
+        - STAC
+
+      end note
+      :Copy or link referenced Data
+      in the **Data Stagein Volume**;
+
+  }
+
+  :Generate **STAC documents**
+   for all the copied files;
+
+repeat while (More Parameters?) is (yes)
+:Generate **STAC Catalog**
+referencing all previous
+collections doc;
+note right
+  Catalog JSON
+  ====
+end note
+
+:Generate **CWL Input file**
+referencing all physical files
+and the Catalog JSON;
+
+:A;
+note right
+  **Data Stagein Volume**
+  + input.json (CWL input)
+  ====
+  Files and STAC documents organized in folders
+end note
+
+
+stop
+
+
+@enduml

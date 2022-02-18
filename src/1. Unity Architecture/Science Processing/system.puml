@@ -8,7 +8,8 @@
 !global $SPS_DESC = "Subsystem for the generation of science data products through the combination of Algorithms and Data"
 !global $DS_DESC = "Subsystem for ingestion, storage, and access to data products for use in the Unity System."
 
-LAYOUT_WITH_LEGEND()
+LAYOUT_LEFT_RIGHT()
+'LAYOUT_WITH_LEGEND()
 
 'Global 'external systems' definitions. Edit to remove current area.
 'System_Ext(sps, "Science Processing", $SPS_DESC)
@@ -16,7 +17,9 @@ System_Ext(ds, "Data Services", $DS_DESC)
 System_Ext(as, "Analysis Services", $AS_DESC)
 System_Ext(cs, "Common Services", $USC_DESC)
 System_Ext(ads, "Algorithm Development", $ADS_DESC)
+
 Person(op, "Operator", "Teams responsible for the operational production and monitoring of products.")
+Person(ai, "Algorithm Integrator", "Teams responsible for chaining and optimizing workflows for product generation")
 
 
 'Define system_boundary, containers, and connections
@@ -29,9 +32,12 @@ System_Boundary(sps, "Science Processing") {
 
     Rel(ems, ades, "deploys and executes algorithms on")
     Rel(wb, wc, "Registers workflows on")
+    Rel(wc,ems,"deploys request workflow from catalog")
 }
 
 Rel(op, ems, "Requests and monitors executions")
+Rel(ai, wb, "Builds and validates workflows")
+
 Rel(ads, ems, "requests execution", "OGC WPS-T")
 Rel(as, ems, "requests execution", "OGC WPS-T")
 

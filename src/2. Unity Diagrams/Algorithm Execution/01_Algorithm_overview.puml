@@ -1,0 +1,16 @@
+@startuml
+title ADES process Overview
+
+EMS --> ADES: WPS Request specifying process and inputs
+ADES -> ADES: Data stage in
+ADES --> Algorithm: Execute Algorithm
+Algorithm -> Algorithm: processes
+Algorithm --> ADES: Return from Processing
+ADES -> ADES: Data stage out
+ADES -> DS:  Register Data [CNM, Provenance]
+
+EMS -> ADES: Status
+ADES -> EMS: Job Response
+
+
+@enduml

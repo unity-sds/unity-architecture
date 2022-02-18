@@ -9,3 +9,5 @@ The Science Processing Service (SPS) system is responsible for deployment and ex
 **Workflow Catalog** - Registry and storage for workflows. Used in sharing and referenced for execution of product processing.
 
 **Workflow Builder** - A user friend interface for build workflows.
+
+The combination of an EMS and one or more ADES elements create a Theamatic Exploitation Platform (TEP). Workflow builders assits users in creating workflows to register in the Workflow Catalog. The Catalog provides workflows that can be deployed to an Thematic Exploitation Platform.
