@@ -7,4 +7,5 @@
     * [Data Services](1.%20Unity%20Architecture/Data%20Services/HOME)
     * [Science Processing](1.%20Unity%20Architecture/Science%20Processing/HOME)
   * [2. Unity Diagrams](2.%20Unity%20Diagrams/HOME)
+    * [Algorithm Execution](2.%20Unity%20Diagrams/Algorithm%20Execution/HOME)
     * [Process Execution](2.%20Unity%20Diagrams/Process%20Execution/HOME)
