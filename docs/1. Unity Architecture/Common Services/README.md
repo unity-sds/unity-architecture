@@ -11,6 +11,7 @@
     * [Data Services](../../1.%20Unity%20Architecture/Data%20Services/README.md)
     * [Science Processing](../../1.%20Unity%20Architecture/Science%20Processing/README.md)
   * [2. Unity Diagrams](../../2.%20Unity%20Diagrams/README.md)
+    * [Algorithm Execution](../../2.%20Unity%20Diagrams/Algorithm%20Execution/README.md)
     * [Process Execution](../../2.%20Unity%20Diagrams/Process%20Execution/README.md)
 
 ---
