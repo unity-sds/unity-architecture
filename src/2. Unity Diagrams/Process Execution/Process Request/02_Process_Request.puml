@@ -1,6 +1,8 @@
 @startuml
 title Science Processing Request
 
+Client -> DS: Query Data (CMR?)
+DS -> Client: Data Results (STAC?)
 Client --> EMS: Process (WPS)
 EMS --> ADES: Process (WPS)
 ADES --> EMS : Job ID (WPS)

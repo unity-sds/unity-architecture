@@ -1,0 +1,11 @@
+@startuml
+title Science Processing Execution Response
+
+Client -> EMS : Job/Status (WPS)
+EMS -> ADES : Job/Status (WPS)
+ADES -> EMS : Processing Result (WPS)
+EMS -> Client : Processing Result (by reference) (WPS)
+Client -> UDS : Get Processing Result by reference (HTTPS)
+UDS -> Client : Return Data (binary)
+
+@enduml

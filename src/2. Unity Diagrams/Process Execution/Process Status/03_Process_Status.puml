@@ -1,6 +1,11 @@
 @startuml
 title Science Processing Execution Status
 
+note right
+  App Package CWL
+  ====
+end note
+
 Client -> EMS: Job/Status (WPS)
 EMS -> ADES: Job/Status (WPS)
 ADES -> EMS : Job/Status (WPS)
