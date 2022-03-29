@@ -21,8 +21,9 @@ System_Ext(archive, "Archive", "Long term archive for distribution of data produ
 
 
 System_Boundary(UDS, "Data Services") {
+
     Container(ds, "Ingest and Archive System", "Cumulus", "Ingest, basic catalog and persistent Storage of data products")
-    Container(cmr, "Metadata Search", "CMR", "Provides customers with a summary of their bank accounts")
+    Container(cmr, "Metadata Search", "CMR", "Provides users and services spatio/tempral searchfor Unity data products")
     Container(fb, "Fast Browse", "WMTS", "Allows the retrieval of tiled images for fast visual browse.")
 
     Rel(ds, cmr, "catalogs umm metadata in")
@@ -32,8 +33,8 @@ System_Boundary(UDS, "Data Services") {
 Rel(ds, sps, "SPS accesses data for processing", "S3")
 Rel(ds, as, "AS accesses data for transformation", "S3")
 
-Rel(sps, ds, "Registers Generated Data", "CNM")
-Rel(ads, ds, "Retrieves generated data from", "CNM")
+Rel(sps, ds, "Registers generated Data", "CNM")
+Rel(ads, ds, "Retrieves generated data from", "HTTP/S3")
 Rel(ds, cs, "Registers data provenance in", "HTTP")
 Rel(UDS, archive, "Archives data", "CNM")
 
