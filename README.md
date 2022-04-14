@@ -5,12 +5,12 @@
 
 ![logo](https://user-images.githubusercontent.com/3129134/163255685-857aa780-880f-4c09-b08c-4b53bf4af54d.png)
 
-<h1 align="center">[INSERT YOUR REPO / PROJ NAME HERE]</h1>
+<h1 align="center">Unity Architecture</h1>
 <!-- ☝️ Replace with your repo name ☝️ -->
 
 </div>
 
-<pre align="center">[INSERT A SINGLE SENTENCE DESCRIBING THE PURPOSE OF YOUR REPO / PROJ]</pre>
+<pre align="center">Location to discuss the Unity architecture in the public domain</pre>
 <!-- ☝️ Replace with a single sentence describing the purpose of your repo / proj ☝️ -->
 
 <!-- Header block for project -->
@@ -18,16 +18,12 @@
 [INSERT YOUR BADGES HERE (SEE: https://shields.io)] [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 <!-- ☝️ Add badges via: https://shields.io e.g. ![](https://img.shields.io/github/your_chosen_action/your_org/your_repo) ☝️ -->
 
-[INSERT SCREENSHOT OF YOUR SOFTWARE, IF APPLICABLE]
-<!-- ☝️ Screenshot of your software (if applicable) via ![](https://uri-to-your-screenshot) ☝️ -->
+![Screen Shot 2022-04-13 at 6 43 47 PM](https://user-images.githubusercontent.com/3129134/163297458-fd2e4933-cb50-43b8-b643-fd5ef29a83f0.png)
 
-[INSERT MORE DETAILED DESCRIPTION OF YOUR REPOSITORY HERE]
+This repository contains detailed architectural diagrams across all Unity service areas. The diagrams follow [C4 architectural diagram standards](https://c4model.com), with UML diagrams for lower level diagrams.
 <!-- ☝️ Replace with a more detailed description of your repository, including why it was made and whom its intended for.  ☝️ -->
 
-[INSERT LIST OF IMPORTANT PROJECT / REPO LINKS HERE]
-<!-- example links>
-[Website](INSERT WEBSITE LINK HERE) | [Docs/Wiki](INSERT DOCS/WIKI SITE LINK HERE) | [Discussion Board](INSERT DISCUSSION BOARD LINK HERE) | [Issue Tracker](INSERT ISSUE TRACKER LINK HERE)
--->
+[Website](https://unity-sds.github.io/unity-architecture/#/) | [Wiki](https://github.com/unity-sds/unity-architecture/wiki) | [Discussion Board](INSERT DISCUSSION BOARD LINK HERE) | [Issue Tracker](https://github.com/unity-sds/unity-architecture/issues)
 
 ## Features
 
@@ -122,11 +118,7 @@ See our: [LICENSE](LICENSE)
 
 ## Support
 
-[INSERT CONTACT INFORMATION OR PROFILE LINKS TO MAINTAINERS AMONG COMMITTER LIST]
-
-<!-- example list of contacts>
-Key points of contact are: [@github-user-1](link to github profile) [@github-user-2](link to github profile)
--->
+Key points of contact are: [@mike-gangl](https://github.com/mike-gangl) [@hookhua](https://github.com/hookhua)
 
 <!-- ☝️ Replace with the key individuals who should be contacted for questions ☝️ -->
 
