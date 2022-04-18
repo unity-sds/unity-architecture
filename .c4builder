@@ -24,5 +24,7 @@
 	"plantumlServerUrl": "https://www.plantuml.com/plantuml",
 	"diagramFormat": "svg",
 	"charset": "UTF-8",
-	"hasRun": true
+	"hasRun": true,
+	"excludeOtherFiles": false,
+        "supportSearch": true
 }
