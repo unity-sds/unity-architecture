@@ -21,8 +21,10 @@ System_Ext(a, "Archive", "Long term archive for distribution of data products to
 System_Boundary(u, "Unity") {
     Container(ads, "Algorithm Development", $ADS_DESC)
     Container(sps, "Science Processing", $SPS_DESC)
-    Container(ds, "Data Services", $DS_DESC)
-    Container(as, "Analysis Services", $AS_DESC)
+    Container_Boundary(dapa, "Data Access and Processing API") {
+      Container(ds, "Data Services", $DS_DESC)
+      Container(as, "Analysis Services", $AS_DESC)
+    }
     Container(cs, "Common Services", $USC_DESC)
 
     Rel(ads, sps, "Algorithm Catalog", "API")
@@ -33,6 +35,7 @@ Rel(ds, a, "Sends data to archive")
 Rel(ad, ads, "Login to develop algorithms, test algorithms, operationalize workflows, execute and monitor operational workflows, validate products", "UI")
 Rel(op, sps, "ensure ongoing product generation, monitor processing, triage issues, ensure archive delivery")
 Rel(cv,ads, "Calibrate algorithms and validate generated data using existing data products")
-Rel(ou, ds, "Users interested in examining data products, algorithm prototypes, or 'open science' style investigations of product generation  (reproduce, re-run, examine)")
+Rel(ou, dapa, "Users interested in examining data products, algorithm prototypes, or 'open science' style investigations of product generation  (reproduce, re-run, examine)")
+Rel(dapa, sps, "Provides data to processing system and catalogs processing results")
 
 @enduml
