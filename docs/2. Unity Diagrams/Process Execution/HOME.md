@@ -1,8 +1,5 @@
 # Process Execution
 
-
-# Process Execution
-
 ## Processing Deployment
 
 The programmatic deployment of a Unity Algorithm to the Unity Processing System. The Common Workflow Language document which is part of the Algorithm Package, is used to define the inputs/outputs of the process and build the WPS-get-capabilities response.
