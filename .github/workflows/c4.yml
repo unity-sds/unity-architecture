@@ -22,4 +22,3 @@ jobs:
         uses: EndBug/add-and-commit@v8.0.1
         with:
           add: 'docs'
-          push: 'origin c4-build --set-upstream --force'
