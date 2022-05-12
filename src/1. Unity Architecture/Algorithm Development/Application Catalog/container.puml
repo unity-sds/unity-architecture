@@ -12,10 +12,10 @@ LAYOUT_WITH_LEGEND()
 System_Ext(sps, "Science Processing System", "")
 System_Boundary(ads,"Algorithm Development"){
   Container(bs, "Build System", "Jenkins", "Builds algorithms into OGC Algorithm Packages.")
-  Container_Boundary(ac, "Algorithm Catalog") {
-      Component(api, "search api", "cmr?", "API for listing, viewing, and posting package metadata")
-      Component(store, "Algorithm Store", "s3", "where docker images are stored", $sprite="SimpleStorageServiceBucketWithObjects")
-      Component(db, "database", "elastic search", "Where metadata is stored for packages" )
+  Container_Boundary(ac, "Application Catalog") {
+      Component(api, "Application Package Catalog", "dockstore", "API for listing, viewing, and posting package metadata")
+      Component(store, "Application Store", "ecr/github", "where docker images are stored", $sprite="SimpleStorageServiceBucketWithObjects")
+      Component(db, "database", "postgres", "Where metadata is stored for packages" )
 
       Rel(api, db, "reads/writes package metadata", "JSON/HTTPS")
 
@@ -24,6 +24,7 @@ System_Boundary(ads,"Algorithm Development"){
 }
 Rel(sps, api, "Gets Package Info", "JSON/HTTPS")
 
-Rel(bs, ac, "Writes OGC Package");
+Rel(bs, store, "Writes OGC Package container");
+Rel(bs, api, "Registers OGC Package CWL/Metadata");
 
 @enduml

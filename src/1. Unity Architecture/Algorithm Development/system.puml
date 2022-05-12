@@ -19,7 +19,7 @@ System_Ext(cs, "Common Services", $USC_DESC)
 
 
 System_Boundary(ADS, "Algorithm Development") {
-    Container(ac, "Algorithm Catalog", "Cmr & ECR", "Stores Algorithm Package (docker) and Descriptor for Unity usage.")
+    Container(ac, "Application Catalog", "Dockstore & ECR", "Stores Application Package (docker) and Descriptor for Unity usage.")
     Container(ec, "Eclipse Che", "eclipse che", "IDE for algorithm development.")
     Container(jn, "Jupyter Notebooks", "jupyter", "IDE for algorithm development.")
     Container(cicd, "Build System", "jenkins", "Builds, tests and packages algorithms.")

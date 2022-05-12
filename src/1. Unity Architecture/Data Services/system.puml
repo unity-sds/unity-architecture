@@ -17,19 +17,21 @@ System_Ext(as, "Analysis Services", $AS_DESC)
 System_Ext(cs, "Common Services", $USC_DESC)
 System_Ext(ads, "Algorithm Development", $ADS_DESC)
 
+System_Ext(di, "Data Inputs", "Originating point of data for the project/science teams to process into higher level products.")
 System_Ext(archive, "Archive", "Long term archive for distribution of data products to end users. Examples include PDS, DAAC, or other NASA approved entity.")
 
 
 System_Boundary(UDS, "Data Services") {
 
     Container(ds, "Ingest and Archive System", "Cumulus", "Ingest, basic catalog and persistent Storage of data products")
-    Container(cmr, "Metadata Search", "CMR", "Provides users and services spatio/tempral searchfor Unity data products")
+    Container(cmr, "Metadata Search", "TBD", "Provides users and services spatiotemporal search for Unity data products")
     Container(fb, "Fast Browse", "WMTS", "Allows the retrieval of tiled images for fast visual browse.")
 
-    Rel(ds, cmr, "catalogs umm metadata in")
+    Rel(ds, cmr, "catalogs product metadata in")
     Rel(ds, fb, "Registers tiles in")
 }
 
+Rel(di, ds, "Data inputs ingested into Unity (e.g. from a Ground Station)", "CNM & S3")
 Rel(ds, sps, "SPS accesses data for processing", "S3")
 Rel(ds, as, "AS accesses data for transformation", "S3")
 

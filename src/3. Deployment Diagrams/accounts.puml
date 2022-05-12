@@ -1,0 +1,19 @@
+@startuml
+cloud Unity {
+  card "Unity Shared Services" {
+    component "Application Catalog"
+    component "Data Catalog"
+    component "Provenance Store"
+    component "DAPA endpoint"
+  }
+  card "Project deployed services" {
+    component "ADES"
+    component "Application Development Environment"
+    component "Ingestion Workflows"
+    component "Data Buckets (s3)"
+    component "Analysis Services"
+  }
+
+
+}
+@enduml
