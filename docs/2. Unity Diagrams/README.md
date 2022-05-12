@@ -5,7 +5,7 @@
 * [Overview](../README.md)
   * [1. Unity Architecture](../1.%20Unity%20Architecture/README.md)
     * [Algorithm Development](../1.%20Unity%20Architecture/Algorithm%20Development/README.md)
-      * [Algorithm Catalog](../1.%20Unity%20Architecture/Algorithm%20Development/Algorithm%20Catalog/README.md)
+      * [Application Catalog](../1.%20Unity%20Architecture/Algorithm%20Development/Application%20Catalog/README.md)
     * [Analysis Services](../1.%20Unity%20Architecture/Analysis%20Services/README.md)
     * [Common Services](../1.%20Unity%20Architecture/Common%20Services/README.md)
     * [Data Services](../1.%20Unity%20Architecture/Data%20Services/README.md)
@@ -18,6 +18,8 @@
       * [Process Request](../2.%20Unity%20Diagrams/Process%20Execution/Process%20Request/README.md)
       * [Process Status](../2.%20Unity%20Diagrams/Process%20Execution/Process%20Status/README.md)
       * [Processing Response](../2.%20Unity%20Diagrams/Process%20Execution/Processing%20Response/README.md)
+  * [3. Deployment Diagrams](../3.%20Deployment%20Diagrams/README.md)
+  * [4. Unity Glossary](../4.%20Unity%20Glossary/README.md)
 
 ---
 
