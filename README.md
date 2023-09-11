@@ -23,7 +23,7 @@
 This repository contains detailed architectural diagrams across all Unity service areas. The diagrams follow [C4 architectural diagram standards](https://c4model.com), with UML diagrams for lower level diagrams.
 <!-- ☝️ Replace with a more detailed description of your repository, including why it was made and whom its intended for.  ☝️ -->
 
-[Website](https://unity-sds.github.io/unity-architecture/#/) | [Wiki](https://github.com/unity-sds/unity-architecture/wiki) | Discussion Board (TBD) | [Issue Tracker](https://github.com/unity-sds/unity-architecture/issues)
+[Unity Website](https://unity-sds.github.io/) | [Architecture Docs](https://unity-sds.gitbook.io/docs/architecture) | [Issue Tracker](https://github.com/unity-sds/unity-architecture/issues)
 
 ## Features
 
