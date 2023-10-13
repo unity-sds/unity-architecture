@@ -17,7 +17,7 @@ What are we proposing or doing? Why was this decision made. some options for why
 - Cost
 
 ## Impacts
-# Why did we make this choice? What might cause us issues in the future? Risks with this decision?
+Why did we make this choice? What might cause us issues in the future? Risks with this decision?
 
 ## References
 (Optional) Any other references that make sense. Documentation links, other ADRs, etc.
